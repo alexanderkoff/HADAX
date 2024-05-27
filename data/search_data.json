@@ -1,0 +1,304 @@
+[
+  {
+    "url": "/hadax/aboutus.html",
+    "title": "О компании Хэдэкс",
+    "content": "О компании Хэдэкс"
+  },
+  {
+    "url": "/hadax/categories.html",
+    "title": "Аренда спецтехники Хэдэкс",
+    "content": "Категории спецтехники"
+  },
+  {
+    "url": "/hadax/contacts.html",
+    "title": "Контакты компании Хэдэкс",
+    "content": "Контакты"
+  },
+  {
+    "url": "/hadax/job.html",
+    "title": "Вакансии компании Хэдэкс",
+    "content": "Вакансии компании Хэдэкс"
+  },
+  {
+    "url": "/hadax/services.html",
+    "title": "Услуги компании Хэдэкс",
+    "content": "Услуги компании Хэдэкс"
+  },
+  {
+    "url": "/hadax/services/dismantling.html",
+    "title": "Демонтаж сооружений",
+    "content": ""
+  },
+  {
+    "url": "/hadax/services/excavation.html",
+    "title": "Рытье котлованов",
+    "content": ""
+  },
+  {
+    "url": "/hadax/services/removal.html",
+    "title": "Вывоз грунта",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/bulldozers.html",
+    "title": "Аренда бульдозеров",
+    "content": "Каталог бульдозеров предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/bulldozers/Komatsu_D61PX-23M0.html",
+    "image": "/hadax/images/categories/bulldozers/Komatsu_D61PX-23M0.webp",
+    "title": "Бульдозер Komatsu D61PX-23M0",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/bulldozers/Komatsu_D155AX-6.html",
+    "image": "/hadax/images/categories/bulldozers/Komatsu_D155AX-6.webp",
+    "title": "Бульдозер Komatsu D155AX-6",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/bulldozers/Komatsu_D85EX-15E0.html",
+    "image": "/hadax/images/categories/bulldozers/Komatsu_D85EX-15E0.webp",
+    "title": "Бульдозер Komatsu D85EX-15EO",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/bulldozers/Komatsu_D375A-6.html",
+    "image": "/hadax/images/categories/bulldozers/Komatsu_D375A-6.webp",
+    "title": "Бульдозер Komatsu D375A-6",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/bulldozers/Zoomlion_ZD160S-3_950mm.html",
+    "image": "/hadax/images/categories/bulldozers/Zoomlion_ZD160S-3.webp",
+    "title": "Бульдозер-болтоход Zoomlion ZD160S-3 ширина башмака 950мм",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/bulldozers/Zoomlion_ZD160S-3_1100mm.html",
+    "image": "/hadax/images/categories/bulldozers/Zoomlion_ZD160S-3.webp",
+    "title": "Бульдозер-болтоход Zoomlion ZD160S-3 ширина башмака 1100мм",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/car_towers.html",
+    "title": "Аренда автовышек",
+    "content": "Каталог автовышек предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/car_towers/VIPO_32_01.html",
+    "image": "/hadax/images/categories/car_towers/VIPO-32-01.webp",
+    "title": "Автовышка ВИПО-32-01 32 метра на базе КАМАЗ-43253",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/dump_trucks.html",
+    "title": "Аренда самосвалов",
+    "content": "Каталог самосвалов предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/dump_trucks/AMKAR-658991-01E.html",
+    "image": "/hadax/images/categories/dump_trucks/AMKAR-658991-01E.webp",
+    "title": "Самосвал-вездеход AMKAR-658991-01E",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/dump_trucks/KAMAZ_65201.html",
+    "image": "/hadax/images/categories/dump_trucks/KAMAZ_65201.webp",
+    "title": "Самосвал КАМАЗ 65201",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/dump_trucks/Ural_Next.html",
+    "image": "/hadax/images/categories/dump_trucks/Ural_Next.webp",
+    "title": "Самосвал-вездеход Урал Next 55571-5121-72Е5Ф21",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/excavators.html",
+    "title": "Аренда экскаваторов",
+    "content": "Каталог экскаваторов предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/excavators/VOLVO_EC200_D.html",
+    "image": "/hadax/images/categories/excavators/VOLVO_EC200_D.webp",
+    "title": "Экскаватор VOLVO EC200 D",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/excavators/VOLVO_EC250_D.html",
+    "image": "/hadax/images/categories/excavators/VOLVO_EC250_D.webp",
+    "title": "Экскаватор VOLVO EC250 D",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/excavators/VOLVO_EC380_D.html",
+    "image": "/hadax/images/categories/excavators/VOLVO_EC380_D.webp",
+    "title": "Экскаватор VOLVO EC380 D",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/excavators/VOLVO_EC750_D.html",
+    "image": "/hadax/images/categories/excavators/VOLVO_EC750_D.webp",
+    "title": "Экскаватор VOLVO EC750 D",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/graders.html",
+    "title": "Аренда грейдеров",
+    "content": "Каталог грейдеров предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/graders/Cat_140_GC_140_GC_AWD.html",
+    "image": "/hadax/images/categories/graders/Cat_140_GC_140_GC_AWD.webp",
+    "title": "Грейдер Cat 140 GC / 140 GC AWD",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/graders/Cat_140K.html",
+    "image": "/hadax/images/categories/graders/Cat_140K.webp",
+    "title": "Грейдер Cat 140K",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/manipulators.html",
+    "title": "Аренда манипуляторов",
+    "content": "Каталог манипуляторов предоставляемых компанией Хэдэкс"
+  },
+
+
+  {
+    "url": "/hadax/categories/manipulators/SIBERIA_190_A2.html",
+    "image": "/hadax/images/categories/manipulators/SIBERIA_190_A2.webp",
+    "title": "Манипулятор SIBERIA 190 A2 на базе шасси КАМАЗ 65117",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/pipelayers.html",
+    "title": "Аренда трубоукладчиков",
+    "content": "Каталог трубоукладчиков предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/pipelayers/TBG_16.html",
+    "image": "/hadax/images/categories/pipelayers/TBG_16.webp",
+    "title": "Трубоукладчик ТБГ-16",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/rollers.html",
+    "title": "Аренда катков",
+    "content": "Каталог катков предоставляемых компанией Хэдэкс"
+  },
+
+  {
+    "url": "/hadax/categories/rollers/BW_211_D-5.html",
+    "image": "/hadax/images/categories/rollers/BW_211_D-5.webp",
+    "title": "Каток Bomag BW 211 D-5",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/rollers/BW_211_PD-5.html",
+    "image": "/hadax/images/categories/rollers/BW_211_PD-5.webp",
+    "title": "Каток Bomag BW 211 PD-5",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/rollers/BW_214_D-5.html",
+    "image": "/hadax/images/categories/rollers/BW_214_D-5.webp",
+    "title": "Каток Bomag BW 214 D-5",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/rollers/BW_216_D-5.html",
+    "image": "/hadax/images/categories/rollers/BW_214_D-5.webp",
+    "title": "Каток Bomag BW 216 D-5",
+    "content": ""
+  },
+
+
+
+  {
+    "url": "/hadax/categories/truck_cranes.html",
+    "title": "Аренда автокранов",
+    "content": "Каталог автокранов предоставляемых компанией Хэдэкс"
+  },
+  
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_QY25V_552_1T.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_QY25V_552_1T.webp",
+    "title": "Автокран Zoomlion QY25V 552.1T",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_QY55V552.1T.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_QY55V552.1T.webp",
+    "title": "Автокран Zoomlion QY55V552.1T",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_ZTC250V.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_ZTC250V.webp",
+    "title": "Автокран Zoomlion ZTC250V",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_ZTC300V.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_ZTC300V.webp",
+    "title": "Автокран Zoomlion ZTC300V",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_ZTC600V.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_ZTC600V.webp",
+    "title": "Автокран Zoomlion ZTC600V",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_ZTC800V.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_ZTC800V.webp",
+    "title": "Автокран Zoomlion ZTC800V",
+    "content": ""
+  },  
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_ZTC1000V653_2T.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_ZTC1000V653_2T.webp",
+    "title": "Автокран Zoomlion ZTC1000V653.2T",
+    "content": ""
+  },
+  {
+    "url": "/hadax/categories/truck_cranes/Zoomlion_ZTC1500H.html",
+    "image": "/hadax/images/categories/truck_cranes/Zoomlion_ZTC1500H.webp",
+    "title": "Автокран Zoomlion ZTC1500H",
+    "content": ""
+  }
+]
