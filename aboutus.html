@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>О компании Хэдэкс</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Компания ХЭДЭКС предоставляет в аренду спецтехнику для дорожных, строительных, горнодобывающих и коммунальных работ без наценок и переплат.">
+    <meta name="keywords" content="ХЭДЭКС, аренда спецтехники, автокраны, экскаваторы, строительная техника">
+    <meta name="author" content="ХЭДЭКС">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  </head>
+
+  <body>
+    <div class="nav-color">
+      <div class="container montserrat-semibold" style="padding-bottom: 0px; padding-top: 0px;">
+        <header>
+          <div class="top-bar">
+            <a href="index.html">
+              <img src="images/svg/logo.svg" height="75" alt="Логотип ХЭДЭКС">
+            </a>
+            <div class="contact-info">
+              <span>mail@mail.ru</span>
+              <span class="phone-number">+7(123)123-45-67</span>
+            </div>
+            <!-- Кнопка-триггер модального окна для десктопа -->
+            <button type="button" class="btn desktop-search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSearch">
+              <img src="images/svg/search.svg" height="20" alt="Поиск">
+            </button>
+          </div>
+          <div class="divider"></div>
+          <nav class="custom-nav">
+            <ul class="custom-menu">
+              <li><a href="index.html">Главная</a></li>
+              <li class="dropdown">
+                <a href="categories.html">Аренда<span class="arrow-down"></span></a>
+                <div class="dropdown-content">
+                  <a href="categories/car_towers.html">Автовышки</a>
+                  <a href="categories/truck_cranes.html">Автокраны</a>
+                  <a href="categories/bulldozers.html">Бульдозеры</a>
+                  <a href="categories/graders.html">Грейдеры</a>
+                  <a href="categories/rollers.html">Катки</a>
+                  <a href="categories/manipulators.html">Манипуляторы</a>
+                  <a href="categories/dump_trucks.html">Самосвалы</a>
+                  <a href="categories/pipelayers.html">Трубоукладчики</a>
+                  <a href="categories/excavators.html">Экскаваторы</a>
+                </div>
+              </li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a class="active-a" aria-current="page" href="aboutus.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="job.html">Вакансии</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-logo">
+            <a href="index.html">
+              <img src="images/svg/logo.svg" height="75" alt="Логотип ХЭДЭКС">
+            </a>
+          </div>
+          <div class="mobile-phone">
+            <a href="#">+7(123)123-45-67</a>
+          </div>
+          <div class="mobile-search">
+            <!-- Кнопка-триггер модального окна для мобильных устройств -->
+            <button type="button" class="btn mobile-search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSearch">
+              <img src="images/svg/search.svg" height="20" alt="Поиск">
+            </button>
+          </div>
+          <div class="burger">
+            <span></span>
+          </div>
+        
+          <!-- Модальное окно -->
+          <div class="modal fade" id="exampleModalSearch" tabindex="-1" aria-labelledby="exampleModalLabelSearch" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <form class="form form-modal-body">
+                    <input type="text" class="search form-control" placeholder="Начните вводить...">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                  </form>
+                  <div class="result-container">
+                    <ul class="options">
+                      <!-- Результаты поиска будут отображены здесь -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div class="block_1">
+      <div class="container" style="padding-top: 0px;">
+        <div class="navigation-site montserrat-medium p-text">
+          <a href="index.html">Главная/</a>
+          <a style="color: black;">О нас</a>
+        </div>
+
+        <div class="montserrat-bold">
+          <p class="p-header">О Нас</p>
+        </div>
+        <div class="montserrat-medium width-alignment">
+          <p class="p-text">Мы предоставляем в аренду спецтехнику для дорожных, строительных, горнодобывающих, 
+            коммунальных и других видов работ без наценок и переплат.
+          </p>
+          <p class="p-text">Компания ХЭДЭКС работает на рынке с 20хх г. и предоставляет услуги аренды строительной 
+            техники для строительных компаний и других юридических и физических лиц. Суммарный парк доступных для заказа машин превышает ХХ единиц.
+          </p>
+          <p class="p-text" style="margin: 0px;">Парк техники включает автокраны различной грузоподъемностью, экскаваторы, погрузчики, бортовые машины и другую технику. 
+            Парк включает в себя технику, находящуюся в собственности нашей компании, собственности учредителей или в долевой собственности с нашими партнерами.
+          </p>
+          <div class="montserrat-bold">
+            <p class="p-header" style="margin-top: 20px;">Наши преимущества</p>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-5 montserrat-semibold" style="margin-top: 0px;">
+            <div class="col">
+              <img src="images/svg/advantages_1.svg" class="img-service" alt="Иконка многолетнего опыта на рынке">
+              <div class="card-body text-center">
+                <p class="card-text p-text">X лет на рынке</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="images/svg/advantages_2.svg" class="img-service" alt="Иконка большого автопарка">
+              <div class="card-body text-center">
+                <p class="card-text p-text">Большой автопарк</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="images/svg/advantages_3.svg" class="img-service" alt="Иконка количества сделок">
+              <div class="card-body text-center">
+                <p class="card-text p-text">1234 сделок</p>
+              </div>
+            </div>
+          </div>
+          <p class="p-text" style="margin-top: 30px;">Приоритетом нашей компании является профессиональное комплексное снабжение техникой 
+            строительных компаний. Для постоянных клиентов предоставляется персональный менеджер отвечающий за 
+            своевременное выполнение заявок на технику, качество ее работы, оперативную замену, решение конфликтных 
+            ситуаций и т.д.
+          </p>
+
+          <div class="montserrat-bold">
+            <p class="p-header" style="margin-top: 20px;">Наш офис</p>
+          </div>
+          <p class="montserrat-medium p-text" style="display: inline;">Наш офис находится по адресу:</p>
+          <p class="montserrat-bold p-text" style="display: inline;">Санкт-Петербург, 1-й Верхний переулок, дом 10, строение 1, помещение 21А</p>
+          
+          <div id="map" class="map" style="margin-top: 15px;"></div>
+          <script src="https://api-maps.yandex.ru/2.1/?apikey=a1657f4b-5397-4c87-af92-ef599f8eebc8&lang=ru_RU"></script>
+          <div class="text_map" style="margin-top: 15px;">
+            <img src="images/svg/mapmarker.svg" alt="Иконка местоположения">
+            <a href="https://yandex.ru/maps/2/saint-petersburg/house/1_y_verkhniy_pereulok_10/Z0kYdQ9iT0IBQFhqfXx0dnpqZw==/?ll=30.382676%2C60.057694&z=17">194292, Санкт-Петербург, 1-й Верхний переулок, дом 10, строение 1, помещение 21А</a>
+          </div>
+          <div class="text_map">
+            <img src="images/svg/whatsapp_black.svg" alt="Иконка WhatsApp">
+            <a href="#">+7 (708) 123-45-67</a>
+          </div>
+          <div class="text_map" style="margin-bottom: 0px;">
+            <img src="images/svg/mail_black.svg" alt="Иконка почты">
+            <a href="#">mail@mail.ru</a>
+          </div>
+        </div>      
+      </div>
+
+    </div>
+
+    <div class="img_background_call montserrat-medium">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4 align-items-start">
+          <div class="col">
+            <p class="montserrat-bold p-header">Свяжитесь с нами</p>
+            <p class="p-arg-h">Позвоните нам или оставьте заявку и мы свяжемся с Вами в течение 5-ти минут</p>
+            <div class="feedback-a" style="margin-bottom:20px;">
+              <img src="images/svg/whatsapp.svg" alt="Иконка WhatsApp">
+              <a href="#" target="_blank">+7 (708) 123-45-67</a>
+            </div>
+            <div class="feedback-a">
+              <img src="images/svg/mail.svg" alt="Иконка почты">
+              <a href="#" target="_blank">mail@mail.ru</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body" style="padding: 30px;">
+                <form class="telegram-form">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="formName" name="name" placeholder="Введите имя..." value="" required pattern="^[a-z A-Z а-я А-Я]+$">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона..." required>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="formExampleCheck" onchange="toggleSubmit('formSubmitButton', 'formExampleCheck')">
+                    <div class="form-text"><p class="p-sogl">Отправляя данные, Вы соглашаетесь с <a href="">правилами обработки персональных данных</a></p></div>
+                  </div>
+                  <button type="submit" class="custom-btn_card_form" id="formSubmitButton" disabled>Свяжитесь со мной</button>
+                </form>
+                <div id="success-modal-1" class="success-modal">
+                  <p class="montserrat-semibold">Заявка отправлена!</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <footer>
+      <div class="container montserrat-medium">
+        <div class="footer-row">
+          <div class="footer-col">
+            <img src="images/svg/logo.svg" height="150" alt="Логотип ХЭДЭКС">
+            <p style="margin-left: 25px;">ХЭДЭКС</p>
+          </div>
+          <div class="footer-col">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="categories.html">Аренда</a></li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="aboutus.html">О Нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="job.html">Вакансии</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <ul>
+              <li><a href="#" target="_blank">+7 (123) 123-45-67</a></li>
+              <li><a href="#" target="_blank">+7 (708) 123-45-67</a></li>
+              <li><a href="#" target="_blank">mail@.mail.ru</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Следите за нами</h4>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding: 0;">
+        <div class="footer-bar"></div>
+        <p class="coopyright">Copyright © ХЭДЭКС 2024. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/telegram.js"></script>
+    <script src="js/map.js"></script>
+    
+  </body>
+</html>

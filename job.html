@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Вакансии компании Хэдэкс</title>
+    <meta name="description" content="Вакансии компании Хэдэкс - менеджер по аренде спецтехники и машинисты на бульдозеры. Заработная плата, адрес офиса, требования, условия труда.">
+    <meta name="keywords" content="вакансии, компания Хэдэкс, менеджер по аренде, машинисты на бульдозеры, заработная плата, условия труда, требования">
+    <meta name="author" content="ХЭДЭКС">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  </head>
+
+  <body>
+    <div class="nav-color">
+      <div class="container montserrat-semibold" style="padding-bottom: 0px; padding-top: 0px;">
+        <header>
+          <div class="top-bar">
+            <a href="index.html">
+              <img src="images/svg/logo.svg" height="75" alt="Логотип компании Хэдэкс">
+            </a>
+            <div class="contact-info">
+              <span>mail@mail.ru</span>
+              <span class="phone-number">+7(123)123-45-67</span>
+            </div>
+            <!-- Кнопка-триггер модального окна для десктопа -->
+            <button type="button" class="btn desktop-search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSearch">
+              <img src="images/svg/search.svg" height="20" alt="Поиск">
+            </button>
+          </div>
+          <div class="divider"></div>
+          <nav class="custom-nav">
+            <ul class="custom-menu">
+              <li><a href="index.html">Главная</a></li>
+              <li class="dropdown">
+                <a href="categories.html">Аренда<span class="arrow-down"></span></a>
+                <div class="dropdown-content">
+                  <a href="categories/car_towers.html">Автовышки</a>
+                  <a href="categories/truck_cranes.html">Автокраны</a>
+                  <a href="categories/bulldozers.html">Бульдозеры</a>
+                  <a href="categories/graders.html">Грейдеры</a>
+                  <a href="categories/rollers.html">Катки</a>
+                  <a href="categories/manipulators.html">Манипуляторы</a>
+                  <a href="categories/dump_trucks.html">Самосвалы</a>
+                  <a href="categories/pipelayers.html">Трубоукладчики</a>
+                  <a href="categories/excavators.html">Экскаваторы</a>
+                </div>
+              </li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="aboutus.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a class="active-a" aria-current="page" href="job.html">Вакансии</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-logo">
+            <a href="index.html">
+              <img src="images/svg/logo.svg" height="75" alt="Логотип компании Хэдэкс">
+            </a>
+          </div>
+          <div class="mobile-phone">
+            <a href="#">+7(123)123-45-67</a>
+          </div>
+          <div class="mobile-search">
+            <!-- Кнопка-триггер модального окна для мобильных устройств -->
+            <button type="button" class="btn mobile-search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSearch">
+              <img src="images/svg/search.svg" height="20" alt="Поиск">
+            </button>
+          </div>
+          <div class="burger">
+            <span></span>
+          </div>
+        
+          <!-- Модальное окно -->
+          <div class="modal fade" id="exampleModalSearch" tabindex="-1" aria-labelledby="exampleModalLabelSearch" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <form class="form form-modal-body">
+                    <input type="text" class="search form-control" placeholder="Начните вводить...">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                  </form>
+                  <div class="result-container">
+                    <ul class="options">
+                      <!-- Результаты поиска будут отображены здесь -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    
+
+    <div class="block_1">
+      <div class="container" style="padding-top: 0px;">
+        <div class="navigation-site montserrat-medium p-text">
+          <a href="index.html">Главная/</a>
+          <a style="color: black;">Вакансии</a>
+        </div>
+
+        <div class="montserrat-bold">
+          <p class="p-header">Вакансии</p>
+        </div>
+        <div class="montserrat-medium width-alignment">
+          <p class="p_h montserrat-bold">Менеджер по аренде спецтехники</p>
+          <div class="bold_and_ordinary">
+            <p class="montserrat-bold p-text">Заработная плата: </p>
+            <p class="p-text">100 000 – 150 000 рублей</p>
+          </div>
+          <div class="bold_and_ordinary">
+            <p class="montserrat-bold p-text">Адрес офиса: </p>
+            <p class="p-text">1-й Верхний переулок, дом 10, строение 1, помещение 21А</p>
+          </div>
+          <div class="bold_and_ordinary">
+            <p class="montserrat-bold p-text">Требуемый опыт работы: </p>
+            <p class="p-text">не требуется</p>
+          </div>
+          <p class="montserrat-bold p-text">Обязанности: </p>
+          <ul class="p-text">
+            <li>Поиск клиентов на услуги спецтехники и грузоперевозок;</li>
+            <li>Сопровождение действующих сделок;</li>
+            <li>Оформление документов и контроль их возврата;</li>
+            <li>Заключение договоров, отчётность, контроль дебиторской задолженности.</li>
+          </ul>
+
+          <p class="montserrat-bold p-text">Требования: </p>
+          <ul class="p-text">
+            <li>Коммуникабельность, ответственность, исполнительность, активность;</li>
+            <li>Стрессоустойчивость;</li>
+            <li>Уверенный пользователь ПК;</li>
+            <li>Внимательность к документам;</li>
+            <li>Знание 1С приветствуется.</li>
+          </ul>
+
+          <p class="montserrat-bold p-text">Условия: </p>
+          <ul class="p-text">
+            <li>Официальное трудоустройство согласно ТК РФ;</li>
+            <li>Рабочий день: будни с 9:00 до 18:00;</li>
+            <li>Компенсация мобильной связи;</li>
+            <li>Заработная плата: оклад + %;</li>
+            <li>Работа в небольшом, но сплоченном коллективе.</li>
+          </ul>
+
+          <p class="p_h montserrat-bold">Машинисты на бульдозеры</p>
+          <div class="bold_and_ordinary">
+            <p class="montserrat-bold p-text">Заработная плата: </p>
+            <p class="p-text">100 000 – 150 000 рублей</p>
+          </div>
+          <div class="bold_and_ordinary">
+            <p class="montserrat-bold p-text">Адрес офиса: </p>
+            <p class="p-text">1-й Верхний переулок, дом 10, строение 1, помещение 21А</p>
+          </div>
+          <div class="bold_and_ordinary">
+            <p class="montserrat-bold p-text">Требуемый опыт работы: </p>
+            <p class="p-text">не требуется</p>
+          </div>
+          <p class="montserrat-bold p-text">Обязанности: </p>
+          <ul class="p-text">
+            <li>Поиск клиентов на услуги спецтехники и грузоперевозок;</li>
+            <li>Сопровождение действующих сделок;</li>
+            <li>Оформление документов и контроль их возврата;</li>
+            <li>Заключение договоров, отчётность, контроль дебиторской задолженности.</li>
+          </ul>
+
+          <p class="montserrat-bold p-text">Требования: </p>
+          <ul class="p-text">
+            <li>Коммуникабельность, ответственность, исполнительность, активность;</li>
+            <li>Стрессоустойчивость;</li>
+            <li>Уверенный пользователь ПК;</li>
+            <li>Внимательность к документам;</li>
+            <li>Знание 1С приветствуется.</li>
+          </ul>
+
+          <p class="montserrat-bold p-text">Условия: </p>
+          <ul class="p-text" style="margin-bottom: 0px;">
+            <li>Официальное трудоустройство согласно ТК РФ;</li>
+            <li>Рабочий день: будни с 9:00 до 18:00;</li>
+            <li>Компенсация мобильной связи;</li>
+            <li>Заработная плата: оклад + %;</li>
+            <li>Работа в небольшом, но сплоченном коллективе.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_background_call montserrat-medium">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4 align-items-start">
+          <div class="col">
+            <p class="montserrat-bold p-header">Свяжитесь с нами</p>
+            <p class="p-arg-h">Позвоните нам или оставьте заявку и мы свяжемся с Вами в течение 5-ти минут</p>
+            <div class="feedback-a" style="margin-bottom:20px;">
+              <img src="images/svg/whatsapp.svg" alt="WhatsApp Ico">
+              <a href="#" target="_blank">+7 (708) 123-45-67</a>
+            </div>
+            <div class="feedback-a">
+              <img src="images/svg/mail.svg" alt="Mail Ico">
+              <a href="#" target="_blank">mail@mail.ru</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body" style="padding: 30px;">
+                <form class="telegram-form">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="formName" name="name" placeholder="Введите имя..." value="" required pattern="^[a-z A-Z а-я А-Я]+$">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона..." required>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="formExampleCheck" onchange="toggleSubmit('formSubmitButton', 'formExampleCheck')">
+                    <div class="form-text"><p class="p-sogl">Отправляя данные, Вы соглашаетесь с <a href="">правилами обработки персональных данных</a></p></div>
+                  </div>
+                  <button type="submit" class="custom-btn_card_form" id="formSubmitButton" disabled>Свяжитесь со мной</button>
+                </form>
+                <div id="success-modal-1" class="success-modal">
+                  <p class="montserrat-semibold">Заявка отправлена!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <footer>
+      <div class="container montserrat-medium">
+        <div class="footer-row">
+          <div class="footer-col">
+            <img src="images/svg/logo.svg" height="150" alt="Логотип компании Хэдэкс">
+            <p style="margin-left: 25px;">ХЭДЭКС</p>
+          </div>
+          <div class="footer-col">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="categories.html">Аренда</a></li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="aboutus.html">О Нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="job.html">Вакансии</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <ul>
+              <li><a href="#" target="_blank">+7 (123) 123-45-67</a></li>
+              <li><a href="#" target="_blank">+7 (708) 123-45-67</a></li>
+              <li><a href="#" target="_blank">mail@.mail.ru</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Следите за нами</h4>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding: 0;">
+        <div class="footer-bar"></div>
+        <p class="coopyright">Copyright © ХЭДЭКС 2024. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/telegram.js"></script>
+  </body>
+</html>

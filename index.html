@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Хэдэкс</title>    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Компания 'Хэдэкс' предлагает аренду спецтехники и различные услуги. Оперативность, профессионализм и надежность в каждом заказе.">
+    <meta name="keywords" content="аренда спецтехники, автокраны, бульдозеры, услуги спецтехники, услуги, аренда автовышек">
+    <meta name="author" content="ХЭДЭКС">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  </head>
+
+  <body>
+    <div class="img_background_home">
+      <div class="container montserrat-semibold" style="padding-bottom: 0px; padding-top: 0px;">
+        <header>
+          <div class="top-bar">
+            <a href="index.html">
+              <img src="images/svg/logo.svg" height="75" alt="Логотип Хэдэкс">
+            </a>
+            <div class="contact-info">
+              <span>mail@mail.ru</span>
+              <span class="phone-number">+7(123)123-45-67</span>
+            </div>
+            <!-- Кнопка-триггер модального окна для десктопа -->
+            <button type="button" class="btn desktop-search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSearch">
+              <img src="images/svg/search.svg" height="20" alt="Поиск">
+            </button>
+          </div>
+        
+          <div class="divider"></div>
+          <nav class="custom-nav">
+            <ul class="custom-menu">
+              <li><a class="active-a" aria-current="page" href="index.html">Главная</a></li>
+              <li class="dropdown">
+                <a href="categories.html">Аренда<span class="arrow-down"></span></a>
+                <div class="dropdown-content">
+                  <a href="categories/car_towers.html">Автовышки</a>
+                  <a href="categories/truck_cranes.html">Автокраны</a>
+                  <a href="categories/bulldozers.html">Бульдозеры</a>
+                  <a href="categories/graders.html">Грейдеры</a>
+                  <a href="categories/rollers.html">Катки</a>
+                  <a href="categories/manipulators.html">Манипуляторы</a>
+                  <a href="categories/dump_trucks.html">Самосвалы</a>
+                  <a href="categories/pipelayers.html">Трубоукладчики</a>
+                  <a href="categories/excavators.html">Экскаваторы</a>
+                </div>
+              </li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="aboutus.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="job.html">Вакансии</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-logo">
+            <a href="index.html">
+              <img src="images/svg/logo.svg" height="75" alt="Логотип компании Хэдэкс">
+            </a>
+          </div>
+          <div class="mobile-phone">
+            <a href="#">+7(123)123-45-67</a>
+          </div>
+          <div class="mobile-search">
+            <!-- Кнопка-триггер модального окна для мобильных устройств -->
+            <button type="button" class="btn mobile-search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSearch">
+              <img src="images/svg/search.svg" height="20" alt="Поиск">
+            </button>
+          </div>
+          <div class="burger">
+            <span></span>
+          </div>
+        
+          <!-- Модальное окно -->
+          <div class="modal fade" id="exampleModalSearch" tabindex="-1" aria-labelledby="exampleModalLabelSearch" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <form class="form form-modal-body">
+                    <input type="text" class="search form-control" placeholder="Начните вводить...">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                  </form>
+                  <div class="result-container">
+                    <ul class="options">
+                      <!-- Результаты поиска будут отображены здесь -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        
+        <div class="home-header">
+          <div class="montserrat-bold text-center home-p_h">
+            <p class="p-header" style="margin-bottom: 40px;">Найдите и арендуйте спецтехнику в несколько простых шагов</p>
+          </div>
+          <div class="montserrat-medium text-center home-p">
+            <p class="p-text">Компания "Хэдэкс" специализируется на аренде 
+              спецтехники и предоставлении услуг. Наши опытные 
+              специалисты готовы оперативно и профессионально 
+              помочь вам с любыми вопросами.</p>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-dark custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Оставить заявку
+            </button>
+
+            <!-- Модальное окно -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered montserrat-medium">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <p class="modal-title fs-5" id="exampleModalLabel" style="color: black;"> Оставьте заявку на обратный звонок</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="modal-form telegram-form">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="modalName" name="name" placeholder="Введите имя..." value="" required pattern="^[a-z A-Z а-я А-Я]+$">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="modalPhone" name="phone" placeholder="Номер телефона..." required>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="modalExampleCheck" onchange="toggleSubmit('modalSubmitButton', 'modalExampleCheck')">
+                        <div class="form-text"><p class="p-sogl" style="text-align: left;">Отправляя данные, Вы соглашаетесь с <a href="">правилами обработки персональных данных</a></p></div>
+                      </div>
+                      <button type="submit" class="custom-btn_card_form" id="modalSubmitButton" disabled>Оставить заявку</button>
+                    </form>
+                    <div id="success-modal" class="success-modal">
+                      <p class="montserrat-semibold">Заявка отправлена!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="block_1">
+      <div class="container">
+        <div class="montserrat-bold text-center">
+          <p class="p-header">Выберите подходящую спецтехнику под ваши задачи</p>
+        </div>
+        <div class="montserrat-medium width-alignment">
+          <p class="p-text" style="margin-bottom: 30px;">Наш тщательно подобранный ассортимент - от надежных грузовых автомобилей общего назначения 
+          до универсальных грузовых фургонов - гарантирует нашим клиентам непревзойденную 
+          производительность и надежность при любых их транспортных потребностях</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 montserrat-semibold">
+          <div class="col">
+            <div class="card">
+              <a href="categories/car_towers.html">
+                <img src="images/categories/autovishka.webp" class="card-img-top" alt="Автовышки">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 20px;">Автовышки</p>
+                <button onclick="window.location.href='categories/car_towers.html'" class="custom-btn_card">Арендовать сейчас</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="categories/truck_cranes.html">
+                <img src="images/categories/autokran.webp" class="card-img-top" alt="Автокраны">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 20px;">Автокраны</p>
+                <button onclick="window.location.href='categories/truck_cranes.html'" class="custom-btn_card">Арендовать сейчас</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="categories/bulldozers.html">
+                <img src="images/categories/buldozer.webp" class="card-img-top" alt="Бульдозеры">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 20px;">Бульдозеры</p>
+                <button onclick="window.location.href='categories/bulldozers.html'" class="custom-btn_card">Арендовать сейчас</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="categories/graders.html">
+                <img src="images/categories/greider.webp" class="card-img-top" alt="Грейдеры">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 20px;">Грейдеры</p>
+                <button onclick="window.location.href='categories/graders.html'" class="custom-btn_card">Арендовать сейчас</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="categories/rollers.html">
+                <img src="images/categories/katok.webp" class="card-img-top" alt="Катки">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 20px;">Катки</p>
+                <button onclick="window.location.href='categories/rollers.html'" class="custom-btn_card">Арендовать сейчас</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="categories/manipulators.html">
+                <img src="images/categories/manipulator.webp" class="card-img-top" alt="Манипуляторы">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text" style="font-size: 20px;">Манипуляторы</p>
+                <button onclick="window.location.href='categories/manipulators.html'" class="custom-btn_card">Арендовать сейчас</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center montserrat-bold">
+          <button type="button" onclick="window.location.href='categories.html';" class="btn custom-btn" style="margin-top: 30px;">Смотреть весь каталог</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="montserrat-bold text-center">
+        <p class="p-header">Почему наша компания? </p>
+      </div>
+      <div class="montserrat-medium text-center">
+        <p style="margin-bottom: 30px;" class="p-text">Компания "Хэдэкс" специализируется на аренде спецтехники для
+          юридических и физических лиц. Наши опытные специалисты готовы 
+          оперативно и профессионально помочь вам с любыми вопросами.</p>
+      </div>
+
+      <div class="container-arg">
+        <div style="position: relative;">
+          <img class="arg" src="images/arg.webp" alt="arg">
+        </div>
+        <div class="padding-arg">
+          <div class="card mb-3 card-arg">
+            <div class="row g-0">
+              <div class="col-md-2 d-flex align-items-center justify-content-center">
+                <img src="images/svg/medal.svg" class="img-fluid rounded-start service-ico" alt="Иконка медали">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <p class="montserrat-bold p-arg-h">Качество спецтехники</p>
+                  <p class="montserrat-medium p-arg">Отличное состояние спецтехники 
+                    – она полностью исправна и проходит все регламентные работы в строгом соответствии с требованиями.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card mb-3 card-arg" style="margin-top: 30px;">
+            <div class="row g-0">
+              <div class="col-md-2 d-flex align-items-center justify-content-center">
+                <img src="images/svg/truck.svg" class="img-fluid rounded-start" alt="Иконка грузовика">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <p class="montserrat-bold p-arg-h">Большой парк</p>
+                  <p class="montserrat-medium p-arg">Это позволяет решить практически все 
+                    задачи в строительстве, обслуживании, ремонте, сооружений зданий и иных инфраструктурных объектов.</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="card mb-3 card-arg" style="margin-top: 30px;">
+            <div class="row g-0">
+              <div class="col-md-2 d-flex align-items-center justify-content-center">
+                <img src="images/svg/money.svg" class="img-fluid rounded-start" alt="Иконка ладони с монетой">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <p class="montserrat-bold p-arg-h">Стоимость аренды</p>
+                  <p class="montserrat-medium p-arg">Мы предлагаем конкурентоспособные 
+                    цены на аренду спецтехники для юр. и физ. лиц, стремясь предоставить наиболее выгодные условия на рынке.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="img_background_call montserrat-medium">
+      <div class="container">
+        <div class="montserrat-bold text-center">
+          <p class="p-header">Наши услуги </p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-5 montserrat-semibold" style="margin-top: 20px;">
+          <div class="col">
+            <div class="service">
+              <img src="images/svg/grunt.svg" class="img-service" alt="Вывоз грунта">
+              <div class="card-body text-center">
+                <p class="card-text p_h">Вывоз грунта</p>
+                <p class="card-text montserrat-medium width-alignment p-services">
+                  Организация производит вывоз грунта в Санкт-Петербурге и Ленинградской области. Фирма 
+                  обладает многочисленным парком, включающим всю необходимую технику, что даст возможность 
+                  производить любые необходимые операции.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service">
+              <img src="images/svg/demotazh.svg" class="img-service" alt="Демонтаж сооружений">
+              <div class="card-body text-center">
+                <p class="card-text p_h">Демонтаж сооружений</p>
+                <p class="card-text montserrat-medium width-alignment p-services">
+                  Демонтаж сооружений требует профессионального подхода для избежания повреждений инженерных коммуникаций, 
+                  соседних строений и растительности. Мы предлагаем клиентам услуги по демонтажу домов командой специалистов.
+                </p></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service">
+              <img src="images/svg/ritie.svg" class="img-service" alt="Рытье котлованов">
+              <div class="card-body text-center">
+                <p class="card-text p_h">Рытье котлованов</p>
+                <p class="card-text montserrat-medium width-alignment p-services">
+                  Разработка котлованов – профильная деятельность в сфере земельных работ. При помощи специальной техники 
+                  обрабатывается любой тип грунта, независимо от сложности. Можем оперативно выполнять задачи любого уровня 
+                  сложности.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center montserrat-bold">
+          <button type="button" onclick="window.location.href='services.html';" class="btn custom-btn" style="margin-top: 30px;">Смотреть все услуги</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container montserrat-medium">
+      <section>
+        <div class="montserrat-bold text-center">
+          <p class="p-header">Часто задаваемые вопросы</p>
+        </div>
+
+        <div class="container_faq">
+          <div class="faq">
+            <div class="questions_faq">
+              <h3>Почему стоит заказать технику заранее?</h3>
+              <img src="images/svg/faq.svg" alt="faq">
+            </div>
+            <div class="answer_faq">
+              <p>
+                Аренду лучше согласовывать заранее, т.к. из-за большого спроса не всегда есть свободная техника.
+              </p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <div class="questions_faq">
+              <h3>От чего зависит стоимость аренды спецтехники?</h3>
+              <img src="images/svg/faq.svg" alt="faq">
+            </div>
+            <div class="answer_faq">
+              <p>
+                Стоимость аренды спецтехники зависит от видов работ, сроков и количества рабочих часов.
+              </p>
+            </div>
+          </div>
+  
+          <div class="faq">
+            <div class="questions_faq">
+              <h3>Каким образом техника доставляется на объект?</h3>
+              <img src="images/svg/faq.svg" alt="faq">
+            </div>
+            <div class="answer_faq">
+              <p>
+                Техника доставляется с помощью наших низкорамных тралов. Техника доставляется с помощью наших низкорамных тралов.
+              </p>
+            </div>
+          </div>
+  
+          <div class="faq">
+            <div class="questions_faq">
+              <h3>Почему дешевле заказывать сразу несколько единиц техники?</h3>
+              <img src="images/svg/faq.svg" alt="faq">
+            </div>
+            <div class="answer_faq">
+              <p>
+                Это более экономично. В случае аренды нескольких единиц техники, мы предоставляем скидку.
+              </p>
+            </div>
+          </div>
+          <div class="faq" style="margin-bottom: 30px;">
+            <div class="questions_faq">
+              <h3>Заключаем ли мы договор?</h3>
+              <img src="images/svg/faq.svg" alt="faq">
+            </div>
+            <div class="answer_faq">
+              <p>
+                Да, при оформлении заказа мы заключим договор и привезем технику в оговоренные сроки.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <div class="container montserrat-bold" style="margin-bottom:20px; padding-bottom: 0px; padding-top: 0px;">
+      <p class="text-center p-header">Как нас найти?</p>
+      <p class="montserrat-medium p-text" style="display: inline;">Наш офис находится по адресу:</p>
+      <p class="montserrat-bold p-text" style="display: inline;">Санкт-Петербург, 1-й Верхний переулок, дом 10, строение 1, помещение 21А</p>
+    </div>
+    <div class="img_background_call">
+      <div id="map" class="map"></div>
+      <script src="https://api-maps.yandex.ru/2.1/?apikey=a1657f4b-5397-4c87-af92-ef599f8eebc8&lang=ru_RU"></script>
+    </div>
+           
+    <footer>
+      <div class="container montserrat-medium">
+        <div class="footer-row">
+          <div class="footer-col">
+            <img src="images/svg/logo.svg" height="150" alt="Логотип компании Хэдэкс">
+            <p style="margin-left: 25px;">ХЭДЭКС</p>
+          </div>
+          <div class="footer-col">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="categories.html">Аренда</a></li>
+              <li><a href="services.html">Услуги</a></li>
+              <li><a href="aboutus.html">О Нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="job.html">Вакансии</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <ul>
+              <li><a href="#" target="_blank">+7 (123) 123-45-67</a></li>
+              <li><a href="#" target="_blank">+7 (708) 123-45-67</a></li>
+              <li><a href="#" target="_blank">mail@.mail.ru</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Следите за нами</h4>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding: 0;">
+        <div class="footer-bar"></div>
+        <p class="coopyright">Copyright © ХЭДЭКС 2024. Все права защищены.</p>
+      </div>
+    </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/telegram.js"></script>
+  </body>
+</html>
