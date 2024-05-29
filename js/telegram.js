@@ -24,7 +24,7 @@ $('.telegram-form').on('submit', function (event) {
     });
 
     $.ajax({
-        url: '/hadax/PHP/ajax.php',
+        url: 'http://localhost/hadax/PHP/ajax.php',
         type: 'POST',
         data: data,
         cache: false,
